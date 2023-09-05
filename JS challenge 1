@@ -1,0 +1,15 @@
+// 1. Declare variables and capture input.
+
+const noun = prompt('Type a noun "a person, place or thing".');
+const verb = prompt('Type a verb "an action".');
+const adjective = prompt('Type an adjective "to describe".');
+
+// 2. Combine the input with other words to create a story.
+
+const message = `<p>In a meadow, there was a ${noun} named Sparkle with a shimmering, golden coat. She shared her boundless energy, making friends happy with ${adjective} races and gentle rides. Sparkle's laughter echoed through the meadow, ${verb} joy to all, showing that simple joys light up the world.</p>`;
+
+console.log(message);
+
+// 3. Display the story as a <p> inside the <main> element.
+
+document.querySelector('main').innerHTML = message; 
